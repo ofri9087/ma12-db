@@ -17,8 +17,18 @@ public class entity {
         this.key = key;
     }
 
+    public HashMap<String, dataType> getAllFieldsOfEntity() {
+        return allFieldsOfEntity;
+    }
+
+    public dataType getKey() {
+        return key;
+    }
+
     public void addData(dataType data)
     {
         this.addData(data);
     }
+
+
 }

@@ -1,5 +1,6 @@
 package work.matmon.db;
 
-public interface dataType<T> {
+public abstract class dataType<T>{
 
+    public String publicName = null;
 }

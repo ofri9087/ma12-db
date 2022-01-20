@@ -2,12 +2,13 @@ package work.matmon.db;
 
 import java.util.Date;
 
-
-public class date implements dataType {
+public class date extends dataType implements Comparable<date> {
 
     private Date date;
 
-    public date(Date date) {
-        this.date = date;
+
+    @Override
+    public int compareTo(date o) {
+        return 0;
     }
 }
